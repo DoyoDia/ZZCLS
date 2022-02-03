@@ -2,7 +2,7 @@
 
 [![HknxQs.png](https://s4.ax1x.com/2022/02/01/HknxQs.png)](https://imgtu.com/i/HknxQs)
 
-> 声明：本项目与郑外没有一点关系！！！（我自己都不信
+> 声明：本项目与郑外无关！！！（确信）
 
 ## 郑中是什么
 
@@ -13,7 +13,7 @@
 1. Fork 本仓库
 2. 新建 Feat_xxx 分支
 3. 提交代码
-4. 新建 Pull Request
+4. 发起 Pull Request
 
 ## 联系我们
 
