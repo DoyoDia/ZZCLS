@@ -3,20 +3,17 @@
         <meta charset="utf-8">
         <meta name="renderer" content="webkit">
         <meta http-equiv="x-ua-compatible" content="IE=edge">
-        <title>
-            郑州中国语学校
-        </title>
+        <title>郑州中国语学校</title>
         <meta name="keywords" content="郑州中国语学校,郑州中国语学校官方网站,郑中,中国语,郑中官网">
         <meta name="description" content="郑州中国语学校官方网站,郑州中国语学校欢迎您">
         <link rel="shortcut icon" href="other/xh.png" type="image/x-icon">
         <script type="text/javascript">
 var baseUrl="";
-        </script>
-        <script type="text/javascript" src="js/jquery-1.8.3.min.js">
-</script>
+        </script><script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
         <link href="css/public.css" rel="stylesheet" type="text/css">
         <link href="css/template.css" rel="stylesheet" type="text/css">
         <link href="css/idangerous.swiper.css" rel="stylesheet" type="text/css">
+        <link href="css/zzcls.css" rel="stylesheet" type="text/css">
         <script type="text/javascript" src="js/idangerous.swiper.min.js">
 </script>
         <style type="text/css">
@@ -44,7 +41,7 @@ var baseUrl="";
         .swiper-button-next{
         display:none;
         cursor:pointer;
-        background: url(ZZCLS/img/toright.png) no-repeat left bottom;
+        background: url(/img/toright.png) no-repeat left bottom;
         position: absolute;
         right: 220px;
         top: 45%;
@@ -55,7 +52,7 @@ var baseUrl="";
         .swiper-button-prev{
         display:none;
         cursor:pointer;
-        background: url(ZZCLS/img/toleft.png) no-repeat left top;
+        background: url(/img/toleft.png) no-repeat left top;
         position: absolute;
         left: 10px;
         top: 45%;
@@ -77,7 +74,14 @@ var baseUrl="";
                         <a href="/">简体中文版</a><em class="mglr10">|</em> <a target="_blank" href="/website/english/english.html">英文版</a>
                     </div>
                     <div class="fr text">
-                        2021年09月01日 七月廿五 星期三
+                        <p class="solarlunar"></p>
+                        <script src="https://gcore.jsdelivr.net/gh/jjonline/calendar.js@master/calendar.min.js" type="text/javascript"></script>
+                        <script type="text/javascript">
+                            $(function () {
+                             var lunar = calendar.solar2lunar();
+                             $('.solarlunar').html(''+lunar.cYear + '年0' +lunar.cMonth +  '月' + lunar.cDay +'日 '+lunar.IMonthCn+lunar.IDayCn+' '+lunar.ncWeek+'');
+                            });
+                            </script>
                     </div>
                     <div class="fr text2">
                         今天：
@@ -92,15 +96,9 @@ var baseUrl="";
                     <div class="logo"></div>
                 </div>
                 <div class="fr rtext">
-                    <div class="text">
-                        中西文化融合
-                    </div>
-                    <div class="text">
-                        智障人格分裂
-                    </div>
-                    <div class="text">
-                        国际情怀与本土视野兼废
-                    </div>
+                    <div class="text">中西文化融合</div>
+                    <div class="text">智障人格分裂</div>
+                    <div class="text">国际情怀与本土视野兼废</div>
                 </div>
                 <div class="clear"></div>
             </div>
@@ -746,26 +744,22 @@ var fengcaiSwiper = new Swiper('.fengcai_images_teacher', {
         </div>
         <div class="linksrow">
             <div class="pwidth">
-                <div class="linkrow">
-                    <div class="fl link">
-                        <a href="/pub/newsList/105" target="_blank">学术郑中</a>
-                    </div>
-                    <div class="fl link">
-                        <a href="/pub/newsList/106" target="_blank">红榜郑中</a>
-                    </div>
-                    <div class="fl link">
-                        <a href="/pub/newsList/107" target="_blank">思想郑中</a>
-                    </div>
-                    <div class="fl link">
-                        <a href="/pub/newsList/108" target="_blank">记忆郑中</a>
-                    </div>
-                    <div class="fl link">
-                        <a href="/pub/newsList/109" target="_blank">故事郑中</a>
-                    </div>
-                    <div class="clear"></div>
-                </div>
+              <div class="linkrow">
+                <div class="fl link"> <a href="/pub/newsList/101" target="_blank" one-link-mark="yes">党务公开</a> </div>
+                <div class="fl link"> <a href="/pub/newsList/102" target="_blank" one-link-mark="yes">校务公开</a> </div>
+                <div class="fl link"> <a href="/pub/newsList/103" target="_blank" one-link-mark="yes">工会活动</a> </div>
+                <div class="fl link"> <a href="/pub/newsList/104" target="_blank" one-link-mark="yes">聚焦课堂</a> </div>
+                <div class="fl link"> <a href="/pub/newsList/105" target="_blank" one-link-mark="yes">学术郑中</a> </div>
+                <div class="fl link"> <a href="/pub/newsList/106" target="_blank" one-link-mark="yes">红榜郑中</a> </div>
+                <div class="fl link"> <a href="/pub/newsList/107" target="_blank" one-link-mark="yes">思想郑中</a> </div>
+                <div class="fl link"> <a href="/pub/newsList/108" target="_blank" one-link-mark="yes">记忆郑中</a> </div>
+                <div class="fl link"> <a href="/pub/newsList/109" target="_blank" one-link-mark="yes">故事郑中</a> </div>
+                <div class="fl link"> <a href="/pub/newsList/110" target="_blank" one-link-mark="yes">校友会</a> </div>
+                <div class="fl link"> <a href="/pub/newsList/111" target="_blank" one-link-mark="yes">扫黑除恶</a> </div>
+                <div class="clear"></div>
+              </div>
             </div>
-        </div>
+          </div>
         <div class="infosrow">
             <div class="pwidth">
                 <div class="inforow">
@@ -868,10 +862,10 @@ var fengcaiSwiper = new Swiper('.fengcai_images_teacher', {
                 </div>
                 <div class="fl botrow" style="width:500px;">
                     <div class="row">
-                        Copyright© 2021 by www.zzcls.com.cn All Rights Reserved.
+                        Copyright© 2021-2022 by www.zzcls.com.cn All Rights Reserved.
                     </div>
                     <div class="row">
-                        郑州中国语学校 版权所有 站长邮箱pexeric@qq.com</br>本网站与郑州外国语学校无关。
+                        郑州中国语学校 版权所有 站长邮箱<a href="mailto:pexeric@qq.com" style="color:#eee;text-decoration:none;">pexeric@qq.com</a></br>本网站与郑州外国语学校无关。
                     </div>
                 </div>
                 <div class="clear"></div>
