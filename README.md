@@ -1,5 +1,5 @@
 # 郑州中国语学校 zzcls.com.cn
-[![HknxQs.png](https://s4.ax1x.com/2022/02/01/HknxQs.png)](https://imgtu.com/i/HknxQs)
+[![HknxQs.png](https://s4.ax1x.com/2022/02/01/HknxQs.png)](https://zh.wikipedia.org/zh-cn/User:PexEric/%E9%83%91%E5%B7%9E%E4%B8%AD%E5%9B%BD%E8%AF%AD%E5%AD%A6%E6%A0%A1)
 
 ## 記
 
@@ -12,3 +12,10 @@
 ## 獻
 
 * [calendar.js](https://github.com/jjonline/calendar.js) 农历公历互转JavaScript库
+
+## 助
+
+1. Fork 本仓库
+2. 新建 Feat_xxx 分支
+3. 提交代码
+4. 发起 Pull Request
