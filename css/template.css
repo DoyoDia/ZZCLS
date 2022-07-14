@@ -99,7 +99,7 @@ a:hover {color:#f50; text-decoration:none; cursor:pointer;}
 .mainmenu .submenus .smenus .smenu .stext a {color:#fff;}
 .mainmenu .search {padding-top:13px;}
 .mainmenu .search .sinput {}
-.mainmenu .search .sinput input {line-height:22px; height:22px; border:1px solid #960200; width:150px;}
+.mainmenu .search .sinput input {line-height:22px; height:auto; border:1px solid #960200; width:150px;}
 .mainmenu .search .sbtn {padding-left:6px;}
 .mainmenu .search .sbtn input {line-height:24px; height:24px; border:0px; background:#960200; width:60px; color:#fff; cursor:pointer;}
 
